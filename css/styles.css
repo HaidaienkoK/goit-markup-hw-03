@@ -185,7 +185,7 @@ body {
     margin-right: 30px;
 }
 
-.point-item:last-child{
+.point-item:last-child {
     margin-right: 0;
 }
 
@@ -221,7 +221,7 @@ body {
     color: var(--main-color);
 }
 
-.work-list{
+.work-list {
     display: flex;
     justify-content: space-between;
 }
@@ -237,7 +237,8 @@ body {
     border-radius: 0px 0px 4px 4px;
     text-align: center;
 }
-.team-card:nth-child(n3){
+
+.team-card:last-child {
     margin-right: 0;
 }
 
@@ -248,7 +249,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team-list{
+.team-list {
     display: flex;
     justify-content: space-between;
 }
@@ -271,7 +272,8 @@ body {
     padding: 60px;
     background-color: #2f303a;
 }
-.footer-div{
+
+.footer-div {
     display: flex;
     flex-direction: column;
 }
@@ -309,14 +311,15 @@ body {
     padding-bottom: 50px;
 }
 
-.button-list{
+.button-list {
     display: flex;
     justify-content: center;
 }
 
-.button-list>li:not(:last-child){
+.button-list>li:not(:last-child) {
     margin-right: 8px;
 }
+
 .button-text {
     padding: 6px 22px;
     font-family: "Roboto", sans-serif;
@@ -338,15 +341,15 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-list{
+.portfolio-list {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
 .portfolio-card {
     width: 370px;
-    /* width: calc((100%-30px*2)/3); чомусь не вірно рахує*/
+    /* width: calc((100%-30px*2)/3); */
     height: 404px;
     background: var(--main-bg-color);
     border: 1px solid #EEEEEE;
@@ -354,7 +357,7 @@ body {
     margin-bottom: 30px;
 }
 
-.portfolio-card:nth-child(3n){
+.portfolio-card:nth-child(3n) {
     margin-right: 0;
 }
 
@@ -367,7 +370,7 @@ body {
 }
 
 .portfolio-card-title,
-.portfolio-card-position{
+.portfolio-card-position {
     margin: 0 24px;
 }
 
